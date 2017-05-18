@@ -1,0 +1,276 @@
+*{
+	margin: 0px auto;
+	padding: 0px;
+	font-family: "微软雅黑";
+	font-size: 12px;
+	list-style: none;
+	}	
+	
+#container{ /*最大的盒子*/
+	width: 100%;
+	height: auto;
+	}	
+
+#heder_dh{/*--头导航--*/
+	width:100%;
+	height:30px;
+	background:#F1F1F1;
+	}
+
+#heder_yx{  /*头导航有效区*/
+	width: 1210px;
+	height: 30px;
+	/*background-color: aquamarine;*/
+	}
+
+
+.heder_left{
+	width: 85px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	color: #666666;
+	float: left;
+	border-left: solid 1px #F1F1F1;
+	border-right: solid 1px #F1F1F1;
+	position:relative;
+	}
+
+.heder_left:hover{
+	background: white;
+	border-left: solid 1px #ddd;
+	border-right: solid 1px #ddd;
+	}
+
+
+
+.heder_left img{
+	vertical-align:middle;
+	}
+
+.b_xL{
+	display:none;
+	width:332px;
+	height:220px;
+	border-bottom: solid 1px #ddd;
+	border-left: solid 1px #ddd;
+	border-right: solid 1px #ddd;
+	position:absolute;
+	margin-left: -1px;
+	
+
+
+	}
+
+.heder_left:hover .b_xL{
+	display: block;
+	}
+
+.b_xL span a{
+	display:inline-block
+	width:50px;
+	height:24px;
+	margin:5px;
+	/*text-align:center;
+	line-height: 25px;*/
+	background-color:firebrick;
+	color:white;
+	}
+
+
+.b_xL li{
+	width:38px;
+	height:25px;
+	margin:3px;
+	text-align: center;
+	line-height: 25px;
+	}
+
+.b_xL li a:hover{
+	color: red;
+	}
+
+.b_xL a{
+	text-decoration: none;
+	color: #666666;
+	}
+
+
+.heder_left:hover{
+	display: block;
+	
+	}
+
+.b_xL ul{
+	float:left;
+	list-style: none;
+	margin:10px;
+	padding: 0px;
+	}
+
+
+
+.ul_right{
+	width: 799px;
+	height: 30px;
+	float:right;
+	
+	
+	}
+
+.ul_right li{
+	list-style:none;
+	float: left;
+	line-height:12px;
+	padding:9px;
+	color: #666666;
+	}
+
+.ul_right span{
+	float: left;
+	line-height:2.5;
+	color:silver;
+	}
+
+.wjd span{
+	margin-top:-22px;
+	margin-left:70px;
+	
+}
+
+
+
+.ul_right img{
+	vertical-align: middle;
+	}             
+
+.ul_right{background-image: url(../img/jd2015img.png);
+		background-repeat: no-repeat;
+		background-position:458px 6px;
+	}
+
+.wjd{
+	width: 60px;
+	height: 11px;
+	position:relative;
+	border-left: solid 1px #F1F1F1;
+	border-right: solid 1px #F1F1F1;
+	}
+
+
+.wjd_box{
+	width: 282px;
+	height:143px;
+	position:absolute;
+	top: 30px;
+	left:-0px;
+	border-left: solid 1px#ddd;
+	border-right: solid 1px #ddd;
+	display: none;
+	}
+
+
+.wjd:hover .wjd_box{
+	display: block;
+	background:white;
+	/*border-left: solid 1px#ddd;
+	border-right: solid 1px #ddd;*/
+	}
+
+.wjd_box a{
+	text-decoration: none;
+	color: #666;
+}
+.wjd_left li{
+	width:60px;
+	height:6px;
+	margin-left: 10px;
+	
+	}
+
+.wjd_left{
+	width:120px;
+	height: 75px;
+	float: left;
+
+	}
+.wjd_right li{
+	width:60px;
+	height:6px;
+
+	
+	}
+.wjd_right{
+	float: right;
+	width:80px;
+	height: 73px;
+	float:left;
+	margin-left:13px;
+	}
+.wjd_x{
+	width:282px;
+	height: 65px;
+	background: #fff;
+	margin-top:80px;
+	border-top: solid 1px #eee;
+	border-bottom: solid 1px#ddd;
+	
+	}
+
+.wjd_xleft{
+	width: 70px;
+	height: 50px;
+	margin-left:10px;
+	}
+
+.wjd_xleft li{
+	width: 50px;
+	height: 9px;
+	}
+
+.wjd_xright{
+	width: 80px;
+	height:60px;
+	margin-top:-60px;
+	margin-right:70px;
+	
+	}
+.wjd_xright li{
+	width: 60px;
+	height 8px;
+	margin:20px;
+	margin-top:-25px;
+	margin-left:1px;
+	}
+
+/*---------------------------------------------------------------------*/
+/*导航2*/
+
+.heder_dh2{
+	width: 1210px;
+	height: 100px;
+	background:burlywood;
+	}
+
+.logo{
+	background: yellow;
+	float: left;
+	position: relative;
+    width: 362px;
+    height: 60px;
+    padding: 20px 0;
+	}
+.logo a{
+	display:block;
+	width: 270px;
+	height: 60px;
+	background: brown;
+	background-image: url(../img/logo-201305.png);
+	float: left;
+	}
+
+.logo_sm{
+    width: 180px;
+    height: 70px;
+  	background:pink;
+}
